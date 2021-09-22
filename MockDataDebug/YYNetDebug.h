@@ -15,7 +15,7 @@
 
 // 获取到debug文件夹中存储的文件，并通过列表形式展示出来，点击后，展示其中详情；
 static void yy_showDebugFileView(){
-    UIWindow *window = [[[UIApplication sharedApplication] delegate] window];
+    UIWindow *window = [[UIApplication sharedApplication] windows].firstObject;
     if (window.windowLevel != UIWindowLevelNormal)
     {
         NSArray *windows = [[UIApplication sharedApplication] windows];

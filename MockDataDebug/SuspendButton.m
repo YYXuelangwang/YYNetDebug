@@ -25,7 +25,7 @@ static const NSInteger KPrefixItem_Tag = 200;
 }
 
 + (instancetype)addDebugBtnWithTag:(NSUInteger)tag{
-    UIWindow *window = [[[UIApplication sharedApplication] delegate] window];
+    UIWindow *window = [[UIApplication sharedApplication] windows].firstObject;
     if (window.windowLevel != UIWindowLevelNormal)
     {
         NSArray *windows = [[UIApplication sharedApplication] windows];
