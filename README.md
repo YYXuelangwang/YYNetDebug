@@ -182,14 +182,14 @@ $ sh stop_server.sh
 
 1. 最后监听到的网络请求，左图是正常的网络请求后的结果，右图是替换到本地服务器访问后的结果
     <center>
-    <img src="https://i.loli.net/2020/07/11/9nR2M8FIPa7bhoN.png" width="40%" />
-    <img src="https://i.loli.net/2020/07/11/9nR2M8FIPa7bhoN.png" width="40%" />
+    <img src="https://github.com/YYXuelangwang/YYNetDebug/blob/main/m1.png" width="40%" />
+    <img src="https://github.com/YYXuelangwang/YYNetDebug/blob/main/m2.png" width="40%" />
     </center>
 
 2. 运行效果展示
     <center>
-    <img src="https://i.loli.net/2020/07/11/9nR2M8FIPa7bhoN.png" width="40%" />
-    <img src="https://i.loli.net/2020/07/11/9nR2M8FIPa7bhoN.png" width="40%" />
+    <img src="https://github.com/YYXuelangwang/YYNetDebug/blob/main/m1.gif" width="40%" />
+    <img src="https://github.com/YYXuelangwang/YYNetDebug/blob/main/m2.gif" width="40%" />
     </center>
 
 # 结语
