@@ -1,0 +1,78 @@
+{
+    "深圳": {
+        "statusCode": "000000",
+        "desc": "请求成功",
+        "result": {
+            "area": "深圳",
+            "areaCode": "440300",
+            "areaid": "101280601",
+            "dayList": [
+                {
+                    "area": "深圳——love",
+                    "areaCode": "440300",
+                    "areaid": "101280601",
+                    "day_air_temperature": "33",
+                    "day_weather": "阵雨(那是很少的哈)",
+                    "day_weather_code": "03",
+                    "day_weather_pic": "http://app1.showapi.com/weather/icon/day/03.png",
+                    "day_wind_direction": "无持续风向",
+                    "day_wind_power": "0-3级",
+                    "daytime": "20210917",
+                    "night_air_temperature": "27",
+                    "night_weather": "多云",
+                    "night_weather_code": "01",
+                    "night_weather_pic": "http://app1.showapi.com/weather/icon/night/01.png",
+                    "night_wind_direction": "无持续风向",
+                    "night_wind_power": "0-3级"
+                }
+            ],
+            "ret_code": 0
+        }
+    },
+    "SRDFPhj16881566aa8ee0a2e4c000757acca3569c574337深圳":{
+        "statusCode": "000000",
+        "desc": "请求成功",
+        "result": {
+            "area": "深圳",
+            "areaCode": "440300",
+            "areaid": "101280601",
+            "dayList": [
+                {
+                    "area": "老铁，赶紧改bug",
+                    "day_wind_direction": "无持续风向",
+                    "night_wind_direction": "我不会悄悄告诉你，你将会有桃花运",
+                    "night_wind_power": "0-3级"
+                }
+            ],
+            "ret_code": 0
+        }
+    },
+    "common/weather/get15DaysWeatherByArea": {
+        "statusCode": "000000",
+        "desc": "请求成功",
+        "result": {
+            "area": "深圳",
+            "areaCode": "440300",
+            "areaid": "101280601",
+            "dayList": [
+                {
+                    "area": "不好意思，现在已经到广州了——love",
+                    "day_wind_direction": "无持续风向",
+                    "night_wind_direction": "马上就会狂风暴雨了",
+                    "night_wind_power": "0-3级"
+                }
+            ],
+            "ret_code": 0
+        }
+    },
+    "common/weather/get15DaysWeatherByArea深圳": {
+        "statusCode": "000000",
+        "desc": "请求成功",
+        "result": {
+            "area": "什么，列表没了，怎么会",
+            "areaCode": "440300",
+            "areaid": "101280601",
+            "ret_code": 0
+        }
+    }
+}

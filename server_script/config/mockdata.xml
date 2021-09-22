@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 尽可能使得每个都唯一性，接口，建议不要有重复的 -->
+<resources
+   version = "1.0">
+   <!-- 以下这个示例都可以用来进行测试，都能匹配的上，
+
+        1. 测试时，因为使用的是同一个接口，用不同方式的时候，
+        将其他方式注释掉就可以了；
+
+        2. 这里存在着一个优先级，会先遍历interface，然后是param，最后是params，
+        如果其中有匹配到，就不会继续匹配；
+
+        3. 匹配成功后，会把匹配的字符串拼接起来作为key，去
+        json文件中找到对应的json值并返回；
+    -->
+
+    <!-- 仅使用接口来进行匹配 -->
+    <interface>common/weather/get15DaysWeatherByArea</interface>
+
+    <!-- 使用接口，加过滤参数进行匹配， -->
+    <!-- <interface filterParams = "深圳">common/weather/get15DaysWeatherByArea</interface> -->
+
+    <!-- 仅使用单个参数来进行匹配 -->
+    <param>深圳</param>
+
+    <!-- 多个参数的话，使用’,‘隔开，不要有空格 -->
+    <params>SRDFPhj16881566aa8ee0a2e4c000757acca3569c574337,深圳</params>
+</resources>

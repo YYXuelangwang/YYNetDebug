@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AF5F97526F2D42D00902DED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5F97426F2D42D00902DED /* AppDelegate.m */; };
+		5AF5F97B26F2D42D00902DED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5F97A26F2D42D00902DED /* ViewController.m */; };
+		5AF5F97E26F2D42D00902DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF5F97C26F2D42D00902DED /* Main.storyboard */; };
+		5AF5F98026F2D43000902DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF5F97F26F2D43000902DED /* Assets.xcassets */; };
+		5AF5F98326F2D43000902DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF5F98126F2D43000902DED /* LaunchScreen.storyboard */; };
+		5AF5F98626F2D43000902DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5F98526F2D43000902DED /* main.m */; };
+		5AF5F9A026F2D61C00902DED /* SuspendButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5F98D26F2D61C00902DED /* SuspendButton.m */; };
+		5AF5F9A126F2D61C00902DED /* YYURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5F98F26F2D61C00902DED /* YYURLSessionDemux.m */; };
+		5AF5F9A226F2D61C00902DED /* NetMockManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5F99226F2D61C00902DED /* NetMockManager.m */; };
+		5AF5F9A326F2D61C00902DED /* YYHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5F99526F2D61C00902DED /* YYHTTPProtocol.m */; };
+		5AF5F9A426F2D61C00902DED /* CanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5F99726F2D61C00902DED /* CanonicalRequest.m */; };
+		5AF5F9A626F2D61C00902DED /* YYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5F99B26F2D61C00902DED /* YYFileManager.m */; };
+		5AF5F9A726F2D61C00902DED /* YYDebugFileBrowseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5F99C26F2D61C00902DED /* YYDebugFileBrowseView.m */; };
+		F9988C838BBED008846E0403 /* Pods_MockDataDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D37E46018B6B735A711127 /* Pods_MockDataDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E572090323FA945A43B3B5E /* Pods-MockDataDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockDataDemo.debug.xcconfig"; path = "Target Support Files/Pods-MockDataDemo/Pods-MockDataDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		26D37E46018B6B735A711127 /* Pods_MockDataDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockDataDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF5F97026F2D42D00902DED /* MockDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF5F97326F2D42D00902DED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AF5F97426F2D42D00902DED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AF5F97926F2D42D00902DED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AF5F97A26F2D42D00902DED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AF5F97D26F2D42D00902DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AF5F97F26F2D43000902DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AF5F98226F2D43000902DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AF5F98426F2D43000902DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF5F98526F2D43000902DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AF5F98D26F2D61C00902DED /* SuspendButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendButton.m; sourceTree = "<group>"; };
+		5AF5F98F26F2D61C00902DED /* YYURLSessionDemux.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYURLSessionDemux.m; sourceTree = "<group>"; };
+		5AF5F99026F2D61C00902DED /* YYHTTPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHTTPProtocol.h; sourceTree = "<group>"; };
+		5AF5F99126F2D61C00902DED /* CanonicalRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanonicalRequest.h; sourceTree = "<group>"; };
+		5AF5F99226F2D61C00902DED /* NetMockManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetMockManager.m; sourceTree = "<group>"; };
+		5AF5F99426F2D61C00902DED /* YYURLSessionDemux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYURLSessionDemux.h; sourceTree = "<group>"; };
+		5AF5F99526F2D61C00902DED /* YYHTTPProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHTTPProtocol.m; sourceTree = "<group>"; };
+		5AF5F99626F2D61C00902DED /* NetMockManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetMockManager.h; sourceTree = "<group>"; };
+		5AF5F99726F2D61C00902DED /* CanonicalRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanonicalRequest.m; sourceTree = "<group>"; };
+		5AF5F99926F2D61C00902DED /* SuspendButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendButton.h; sourceTree = "<group>"; };
+		5AF5F99B26F2D61C00902DED /* YYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFileManager.m; sourceTree = "<group>"; };
+		5AF5F99C26F2D61C00902DED /* YYDebugFileBrowseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDebugFileBrowseView.m; sourceTree = "<group>"; };
+		5AF5F99D26F2D61C00902DED /* YYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFileManager.h; sourceTree = "<group>"; };
+		5AF5F99E26F2D61C00902DED /* YYDebugFileBrowseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDebugFileBrowseView.h; sourceTree = "<group>"; };
+		5AF5F99F26F2D61C00902DED /* YYDebugFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDebugFile.h; sourceTree = "<group>"; };
+		5AF5F9AB26F30DD100902DED /* YYNetDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYNetDebug.h; sourceTree = "<group>"; };
+		5B33CCB5DE9901FF6A8809DE /* Pods-MockDataDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockDataDemo.release.xcconfig"; path = "Target Support Files/Pods-MockDataDemo/Pods-MockDataDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AF5F96D26F2D42D00902DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9988C838BBED008846E0403 /* Pods_MockDataDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A18AEBC542248C259922A71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26D37E46018B6B735A711127 /* Pods_MockDataDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AF5F96726F2D42D00902DED = {
+			isa = PBXGroup;
+			children = (
+				5AF5F97226F2D42D00902DED /* MockDataDemo */,
+				5AF5F97126F2D42D00902DED /* Products */,
+				702B94E66A734DB91936104D /* Pods */,
+				0A18AEBC542248C259922A71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5AF5F97126F2D42D00902DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF5F97026F2D42D00902DED /* MockDataDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF5F97226F2D42D00902DED /* MockDataDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5AF5F98C26F2D61C00902DED /* MockDataDebug */,
+				5AF5F97326F2D42D00902DED /* AppDelegate.h */,
+				5AF5F97426F2D42D00902DED /* AppDelegate.m */,
+				5AF5F97926F2D42D00902DED /* ViewController.h */,
+				5AF5F97A26F2D42D00902DED /* ViewController.m */,
+				5AF5F97C26F2D42D00902DED /* Main.storyboard */,
+				5AF5F97F26F2D43000902DED /* Assets.xcassets */,
+				5AF5F98126F2D43000902DED /* LaunchScreen.storyboard */,
+				5AF5F98426F2D43000902DED /* Info.plist */,
+				5AF5F98526F2D43000902DED /* main.m */,
+			);
+			path = MockDataDemo;
+			sourceTree = "<group>";
+		};
+		5AF5F98C26F2D61C00902DED /* MockDataDebug */ = {
+			isa = PBXGroup;
+			children = (
+				5AF5F98D26F2D61C00902DED /* SuspendButton.m */,
+				5AF5F98E26F2D61C00902DED /* handlNet */,
+				5AF5F99926F2D61C00902DED /* SuspendButton.h */,
+				5AF5F99A26F2D61C00902DED /* storedata */,
+				5AF5F99F26F2D61C00902DED /* YYDebugFile.h */,
+				5AF5F9AB26F30DD100902DED /* YYNetDebug.h */,
+			);
+			name = MockDataDebug;
+			path = ../../MockDataDebug;
+			sourceTree = "<group>";
+		};
+		5AF5F98E26F2D61C00902DED /* handlNet */ = {
+			isa = PBXGroup;
+			children = (
+				5AF5F98F26F2D61C00902DED /* YYURLSessionDemux.m */,
+				5AF5F99026F2D61C00902DED /* YYHTTPProtocol.h */,
+				5AF5F99126F2D61C00902DED /* CanonicalRequest.h */,
+				5AF5F99226F2D61C00902DED /* NetMockManager.m */,
+				5AF5F99426F2D61C00902DED /* YYURLSessionDemux.h */,
+				5AF5F99526F2D61C00902DED /* YYHTTPProtocol.m */,
+				5AF5F99626F2D61C00902DED /* NetMockManager.h */,
+				5AF5F99726F2D61C00902DED /* CanonicalRequest.m */,
+			);
+			path = handlNet;
+			sourceTree = "<group>";
+		};
+		5AF5F99A26F2D61C00902DED /* storedata */ = {
+			isa = PBXGroup;
+			children = (
+				5AF5F99B26F2D61C00902DED /* YYFileManager.m */,
+				5AF5F99C26F2D61C00902DED /* YYDebugFileBrowseView.m */,
+				5AF5F99D26F2D61C00902DED /* YYFileManager.h */,
+				5AF5F99E26F2D61C00902DED /* YYDebugFileBrowseView.h */,
+			);
+			path = storedata;
+			sourceTree = "<group>";
+		};
+		702B94E66A734DB91936104D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E572090323FA945A43B3B5E /* Pods-MockDataDemo.debug.xcconfig */,
+				5B33CCB5DE9901FF6A8809DE /* Pods-MockDataDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AF5F96F26F2D42D00902DED /* MockDataDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF5F98926F2D43000902DED /* Build configuration list for PBXNativeTarget "MockDataDemo" */;
+			buildPhases = (
+				5FD80E628026EF2459470747 /* [CP] Check Pods Manifest.lock */,
+				5AF5F96C26F2D42D00902DED /* Sources */,
+				5AF5F96D26F2D42D00902DED /* Frameworks */,
+				5AF5F96E26F2D42D00902DED /* Resources */,
+				BF60CF8DD295B9060DE26648 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockDataDemo;
+			productName = MockDataDemo;
+			productReference = 5AF5F97026F2D42D00902DED /* MockDataDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AF5F96826F2D42D00902DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5AF5F96F26F2D42D00902DED = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 5AF5F96B26F2D42D00902DED /* Build configuration list for PBXProject "MockDataDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AF5F96726F2D42D00902DED;
+			productRefGroup = 5AF5F97126F2D42D00902DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AF5F96F26F2D42D00902DED /* MockDataDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AF5F96E26F2D42D00902DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF5F98326F2D43000902DED /* LaunchScreen.storyboard in Resources */,
+				5AF5F98026F2D43000902DED /* Assets.xcassets in Resources */,
+				5AF5F97E26F2D42D00902DED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FD80E628026EF2459470747 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MockDataDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF60CF8DD295B9060DE26648 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MockDataDemo/Pods-MockDataDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MockDataDemo/Pods-MockDataDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MockDataDemo/Pods-MockDataDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AF5F96C26F2D42D00902DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF5F9A626F2D61C00902DED /* YYFileManager.m in Sources */,
+				5AF5F9A126F2D61C00902DED /* YYURLSessionDemux.m in Sources */,
+				5AF5F9A026F2D61C00902DED /* SuspendButton.m in Sources */,
+				5AF5F9A726F2D61C00902DED /* YYDebugFileBrowseView.m in Sources */,
+				5AF5F97B26F2D42D00902DED /* ViewController.m in Sources */,
+				5AF5F97526F2D42D00902DED /* AppDelegate.m in Sources */,
+				5AF5F98626F2D43000902DED /* main.m in Sources */,
+				5AF5F9A226F2D61C00902DED /* NetMockManager.m in Sources */,
+				5AF5F9A326F2D61C00902DED /* YYHTTPProtocol.m in Sources */,
+				5AF5F9A426F2D61C00902DED /* CanonicalRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AF5F97C26F2D42D00902DED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF5F97D26F2D42D00902DED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AF5F98126F2D43000902DED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF5F98226F2D43000902DED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AF5F98726F2D43000902DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AF5F98826F2D43000902DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AF5F98A26F2D43000902DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E572090323FA945A43B3B5E /* Pods-MockDataDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W64RXD6J32;
+				INFOPLIST_FILE = MockDataDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.MockDataDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AF5F98B26F2D43000902DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B33CCB5DE9901FF6A8809DE /* Pods-MockDataDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W64RXD6J32;
+				INFOPLIST_FILE = MockDataDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.MockDataDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AF5F96B26F2D42D00902DED /* Build configuration list for PBXProject "MockDataDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF5F98726F2D43000902DED /* Debug */,
+				5AF5F98826F2D43000902DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF5F98926F2D43000902DED /* Build configuration list for PBXNativeTarget "MockDataDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF5F98A26F2D43000902DED /* Debug */,
+				5AF5F98B26F2D43000902DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AF5F96826F2D42D00902DED /* Project object */;
+}
