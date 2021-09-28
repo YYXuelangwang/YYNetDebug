@@ -213,7 +213,7 @@ static BOOL stringNotNil(NSString* str){
 
 - (void)setMockUrl:(NSString *)mockUrl{
     _mockUrl = mockUrl;
-    if (!self.mockedData && !self.task) {
+    if (!self.task) {
         [self requestMockedData];
     }
 }
